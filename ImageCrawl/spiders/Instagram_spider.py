@@ -10,10 +10,13 @@ class InstagramSpider(scrapy.Spider):
     params = {
         'access_token': '',
     }
+    
+    print "Starting working on Instagram......"
     start_urls = [
         'https://api.instagram.com/v1/tags/'+tag+'/media/recent?'+ urllib.urlencode(params)
     ]
-
+    
+    
     def parse(self, response):
         response =json.loads(response.body)
         for result in response['data']:
