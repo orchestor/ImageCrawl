@@ -1,4 +1,4 @@
-# ImageCrawl for iosdevcamp2016
+# ImageCrawl for iOSDevcamp2016
 
 ## Overview
 ImageCrawl is a web image crawler that outputs images' origin url and downloads images automatically.  
