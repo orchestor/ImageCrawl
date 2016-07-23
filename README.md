@@ -1,7 +1,8 @@
-# ImageCrawl
+# ImageCrawl for iosdevcamp2016
 
 ## Overview
-Based on [Scrapy](https://github.com/scrapy/scrapy), ImageCrawl is a web image crawler that outputs images' origin url and downloads images automatically.  
+ImageCrawl is a web image crawler that outputs images' origin url and downloads images automatically.  
+
 Recently supports:  
 
 * [Flickr](https://www.flickr.com/)  
@@ -60,3 +61,7 @@ If you want to change the image download directory, edit the last line in file `
 IMAGES_STORE = 'data'
 ```
 **Note** the program works with GoAgent by default, please ensure your GoAgent pre-opened and works well, change or disable GoAgent, see [this](http://snipplr.com/view/74665/using-goagent-agent-in-scrapy/).
+
+
+## reference
+
